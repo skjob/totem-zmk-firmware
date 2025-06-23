@@ -41,7 +41,7 @@ include:
     format: dongle
     artifact-name: totem_qwerty_dongle_right
   - board: seeeduino_xiao_ble
-    shield: totem_dongle
+    shield: totem-dongle
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle
