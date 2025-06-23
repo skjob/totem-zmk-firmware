@@ -245,21 +245,21 @@ jobs:
           name: firmware-totem-qwerty-dongle
           delete-merged: true
 
-      - name: Upload KB ZMK Firmware (Colemak BT)
-        continue-on-error: true
-        uses: actions/upload-artifact/merge@v4
-        with:
-          pattern: artifact-totem_colemak_{left,right}
-          name: firmware-totems-colemak
-          delete-merged: true
+#      - name: Upload KB ZMK Firmware (Colemak BT)
+#        continue-on-error: true
+#        uses: actions/upload-artifact/merge@v4
+#        with:
+#          pattern: artifact-totem_colemak_{left,right}
+#          name: firmware-totems-colemak
+#          delete-merged: true
 
-      - name: Upload KB ZMK Firmware (Colemak Dongle)
-        continue-on-error: true
-        uses: actions/upload-artifact/merge@v4
-        with:
-          pattern: artifact-totem_colemak_dongle*
-          name: firmware-totem-colemak-dongle
-          delete-merged: true
+#      - name: Upload KB ZMK Firmware (Colemak Dongle)
+#        continue-on-error: true
+#        uses: actions/upload-artifact/merge@v4
+#        with:
+#          pattern: artifact-totem_colemak_dongle*
+#          name: firmware-totem-colemak-dongle
+#          delete-merged: true
 
       - name: Upload Firmware Reset (Nano v2)
         continue-on-error: true
