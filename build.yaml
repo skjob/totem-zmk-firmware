@@ -49,6 +49,7 @@ include:
     shield: totem_dongle_prospector prospector_adapter
     keymap: qwerty
     format: dongle
+    snippet: studio-rpc-usb-uart
     artifact-name: totem_qwerty_dongle_prospector
 
 #  # QWERTY BT
