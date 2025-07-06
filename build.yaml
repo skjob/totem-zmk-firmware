@@ -45,6 +45,10 @@ include:
     keymap: qwerty
     format: dongle
     artifact-name: totem_qwerty_dongle
+  - board: seeeduino_xiao_ble
+    shield: totem_dongle_prospector prospector_adapter
+    keymap: qwerty
+    format: dongle
 
 #  # QWERTY BT
 #  - board: nice_nano_v2
