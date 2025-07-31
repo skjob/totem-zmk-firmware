@@ -51,6 +51,11 @@ include:
     format: dongle
     snippet: studio-rpc-usb-uart
     artifact-name: totem_qwerty_dongle_prospector
+  - board: seeeduino_xiao_ble
+    keymap: qwerty
+    format: dongle
+    shield: totem_dongle dongle_screen
+    artifact-name: totem_qwerty_dongle_yads
 
 #  # QWERTY BT
 #  - board: nice_nano_v2

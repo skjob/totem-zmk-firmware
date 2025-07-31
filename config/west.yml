@@ -6,16 +6,21 @@ manifest:
       url-base: https://github.com/urob
     - name: carrefinho
       url-base: https://github.com/bukharovsi
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 147c340c6e8d377304acfdd64dc86cf83ebdfef2
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
       revision: main
     - name: prospector-zmk-module
       remote: carrefinho
+      revision: main
+    - name: zmk-dongle-screen
+      remote: janpfischer
       revision: main
   self:
     path: config
