@@ -27,4 +27,7 @@ endif
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
 endif
